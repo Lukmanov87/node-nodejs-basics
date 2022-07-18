@@ -11,7 +11,7 @@ export const remove = async () => {
     const fileName = "fileToRemove.txt";
 
     if (!files.includes("fileToRemove.txt")) {
-        console.log("FS operation failed");
+        throw new Error("FS operation failed");
       } 
       else {
         await unlink(join(pathToFolder, fileName));

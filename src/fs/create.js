@@ -12,7 +12,7 @@ export const create = async () => {
   const fileContent = "I am fresh and young";
 
   if (files.includes("fresh.txt")) {
-    console.log("FS operation failed");
+    throw new Error("FS operation failed");
   } else {
     await writeFile(join(pathToFolder, fileName), fileContent);
   }
