@@ -4,7 +4,9 @@
   "description": "This repository is the part of nodejs-assignments https://github.com/AlreadyBored/nodejs-assignments",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cli:env": "set RSS_first_name1=Ilgiz& set RSS_last_name2=Lukmanov& node src/cli/env.js",
+    "fs:list": "node src/fs/list.js"
   },
   "repository": {
     "type": "git",
