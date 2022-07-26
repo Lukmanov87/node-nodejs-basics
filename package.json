@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "cli:args": "node src/cli/args.js --first-name Ilgiz --last-name Lukmanov",
     "env": "set RSS_first_name1=Ilgiz& set RSS_last_name2=Lukmanov& node src/cli/env.js",
-    "fs:list": "node src/fs/list.js"
+    "fs:list": "node src/fs/list.js", 
+    "calcHash": "node src/hash/calcHash.js"
   },
   "repository": {
     "type": "git",
