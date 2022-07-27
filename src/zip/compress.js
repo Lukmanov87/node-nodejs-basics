@@ -1,8 +1,8 @@
-import { fileURLToPath } from "url";
-import { dirname, join } from "path";
-import { createReadStream, createWriteStream, unlink } from "fs";
-import { createGzip } from "zlib";
-import { pipeline } from "stream/promises";
+import { fileURLToPath } from "node:url";
+import { dirname, join } from "node:path";
+import { createReadStream, createWriteStream, unlink } from "node:fs";
+import { createGzip } from "node:zlib";
+import { pipeline } from "node:stream/promises";
 
 export const compress = async () => {
   const __filename = fileURLToPath(import.meta.url);

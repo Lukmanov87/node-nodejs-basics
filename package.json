@@ -8,7 +8,9 @@
     "cli:args": "node src/cli/args.js --first-name Ilgiz --last-name Lukmanov",
     "env": "set RSS_first_name1=Ilgiz& set RSS_last_name2=Lukmanov& node src/cli/env.js",
     "fs:list": "node src/fs/list.js", 
-    "calcHash": "node src/hash/calcHash.js"
+    "calcHash": "node src/hash/calcHash.js",
+    "compress": "node src/zip/compress.js",
+    "decompress": "node src/zip/decompress.js"
   },
   "repository": {
     "type": "git",
