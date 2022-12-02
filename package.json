@@ -6,11 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cli:args": "node src/cli/args.js --first-name Ilgiz --last-name Lukmanov",
-    "env": "set RSS_first_name1=Ilgiz& set RSS_last_name2=Lukmanov& node src/cli/env.js",
-    "fs:list": "node src/fs/list.js", 
+    "cli:env": "set RSS_first_name1=Ilgiz& set RSS_last_name2=Lukmanov& node src/cli/env.js",
+    "fs:copy": "node src/fs/copy.js",
+    "fs:create": "node src/fs/create.js",
+    "fs:delete": "node src/fs/delete.js",
+    "fs:list": "node src/fs/list.js",
+    "fs:read": "node src/fs/read.js",
+    "fs:rename": "node src/fs/rename.js",
+    "streams:read": "node src/streams/read.js",
+    "streams:transform": "node src/streams/transform.js",
+    "streams:write": "node src/streams/write.js",
     "calcHash": "node src/hash/calcHash.js",
-    "compress": "node src/zip/compress.js",
-    "decompress": "node src/zip/decompress.js"
+    "zip:compress": "node src/zip/compress.js",
+    "zip:decompress": "node src/zip/decompress.js"
   },
   "repository": {
     "type": "git",

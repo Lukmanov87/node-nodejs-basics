@@ -1,4 +1,4 @@
-import fs from "fs";
+import fs from "node:fs";
 
 export const rename = async () => {
   const targetFolder = "src/fs/files/";

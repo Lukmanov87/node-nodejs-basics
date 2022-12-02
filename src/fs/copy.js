@@ -1,4 +1,5 @@
-import fs from "fs";
+import fs from "node:fs";
+
 export const copy = async () => {
   const options = {
     recursive: true,

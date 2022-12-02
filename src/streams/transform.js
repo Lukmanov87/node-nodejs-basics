@@ -1,5 +1,5 @@
-import { Transform } from "stream";
-import { pipeline } from "stream/promises";
+import { Transform } from "node:stream";
+import { pipeline } from "node:stream/promises";
 
 class TranformStream extends Transform {
   constructor(props = {}) {
@@ -8,7 +8,7 @@ class TranformStream extends Transform {
 
   _transform(chunk, enc, cb) {
     const chunkStringField = chunk.toString();
-    const reverseChunk = chunkStringField.split("").reverse().join("");    
+    const reverseChunk = chunkStringField.split("").reverse().join("");
     cb(null, reverseChunk + "\n");
   }
 }
