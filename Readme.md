@@ -10,7 +10,7 @@
 
 
 * __CLI__
-  * `npm run cli:args`
+  * `npm run cli:args` or use your values with `node src/cli/args.js --first-name Name --last-name Lastname`
   * `npm run cli:env`
 
 
