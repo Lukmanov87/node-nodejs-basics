@@ -1,3 +1,5 @@
+### Expected score: 116
+
 ### Commands:
 
 * __File System__
